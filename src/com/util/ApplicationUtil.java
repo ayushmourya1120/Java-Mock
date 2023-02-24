@@ -59,6 +59,7 @@ public class ApplicationUtil {
         java.sql.Date sqlDate = new java.sql.Date(utDate.getTime());
 
         return sqlDate;
+
     }
 
     public static java.util.Date sqlToUtilDateConverter(java.sql.Date sDate) {
